@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	
+	<link rel="shortcut icon" href="">
+	<title>Template Administrator</title>
+	
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/icon/bootstrap-icons.css">
+	
+	<link rel="stylesheet" href="./assets/css/template-style.css">
+</head>
+<body>
+<div class="home-page open-sidebar">
+	<!-- *** Navigation Sidebar *** -->
+	<div id="sidebar" class="sidebar">
+		<div class="sidebar-overlay"></div>
+		<div class="sidebar-logo">
+			<a class="navbar-brand me-0 d-inline-block" href="javascript:;"
+			   style="background-image: url('./assets/images/logo-white.png')"></a>
+		</div>
+		<div class="navbar py-0">
+			<ul class="nav w-100 flex-column" id="navigation">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link">
+						<i class="bi bi-house-door me-3"></i>
+						<span>Home</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" data-bs-toggle="collapse" href="#dashboard">
+						<i class="bi bi-columns me-3"></i>
+						<span>Cấu hình chung</span>
+					</a>
+					<div class="collapse show" id="dashboard" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link active" href="#">
+									Cài đặt chung
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Menu
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Footer
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Cấu hình loại vip
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Cấu hình tin hot
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Link rút gọn
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Sitemap
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#tindang">
+						<i class="bi bi-list-ul me-3"></i>
+						<span>Tin đăng</span>
+					</a>
+					<div class="collapse" id="tindang" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Danh mục địa điểm
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Danh mục ngành nghề
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Tất cả tin đăng
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#tintuc">
+						<i class="bi bi-newspaper me-3"></i>
+						<span>Bài viết</span>
+					</a>
+					<div class="collapse" id="tintuc" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Danh mục bài viết
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Tất cả bài viết
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Thêm bài viết
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- *** End navigation sidebar *** -->
+	
+	<!-- *** Header *** -->
+	<header id="header" class="header">
+		<div class="navbar pe-3 navbar-expand">
+			<a href="javascript:void(0)" class="toggleSidebar hamburger-icon">
+				<i class="bi bi-justify-left"></i>
+			</a>
+			<ul class="navbar-nav ms-auto mb-0">
+				<li class="nav-item dropdown">
+					<a class="dropdown-toggle d-inline-block text-black-50" href="#" id="toggle-user"
+					   data-bs-toggle="dropdown">
+						<img class="rounded-circle" src="./assets/images/avatar.jpg">
+						<span class="ms-2">Administrator</span>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="toggle-user">
+						<li><a class="dropdown-item" href="#">Separated link</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="#">Separated link</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- *** End header *** -->
+	
+	<!-- *** Main *** -->
+	<div id="main" class="main">
+		<div class="main-inner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card shadow mb-4">
+							<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
+								<h6 class="m-0 fs-6 fw-bold text-primary">Basic Form</h6>
+								<div class="ml-auto">
+									<ol class="breadcrumb mb-0 justify-content-end">
+										<li class="breadcrumb-item"><a href="#">Home</a></li>
+										<li class="breadcrumb-item active">Dashboard</li>
+									</ol>
+								</div>
+							</div>
+							<div class="card-body">
+								<form action="">
+									<div class="row mb-md-4">
+										<div class="col-md-6">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Full name</label>
+												<input type="text" disabled class="form-control"
+												       placeholder="Full name">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Email</label>
+												<input type="email" readonly class="form-control"
+												       placeholder="thtan0407@gmail.com">
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-md-4">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Full name</label>
+												<input type="text" class="form-control" placeholder="Full name">
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Email</label>
+												<input type="email" class="form-control"
+												       placeholder="thtan0407@gmail.com">
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Email</label>
+												<input type="email" class="form-control"
+												       placeholder="thtan0407@gmail.com">
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-md-7">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Chọn file</label>
+												<input type="file" class="form-control">
+											</div>
+										</div>
+										<div class="col-md-5">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label">Select</label>
+												<select name="" id="" class="form-select">
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+													<option value="">Lorem ipsum.</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-md-6">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label me-3">Checkbox</label>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="checkbox01">
+													<label class="form-check-label" for="checkbox01">Checkbox 1</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="checkbox" id="checkbox02">
+													<label class="form-check-label" for="checkbox02">Checkbox 2</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="mb-3 mb-md-0">
+												<label for="" class="form-label me-3">Radio</label>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="radio01">
+													<label class="form-check-label" for="radio01">Radio 1</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" id="radio02">
+													<label class="form-check-label" for="radio02">Radio 2</label>
+												</div>
+												<div class="form-check form-check-inline">
+													<input class="form-check-input" type="radio" disabled id="radio03">
+													<label class="form-check-label" for="radio03">Radio 3</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-md-3">
+											<div class="mb-3 mb-md-0">
+												<div class="form-check form-switch">
+													<input class="form-check-input" type="checkbox"
+													       id="flexSwitchCheckDefault">
+													<label class="form-check-label" for="flexSwitchCheckDefault">Default
+														switch</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="mb-3 mb-md-0">
+												<div class="form-check form-switch">
+													<input class="form-check-input" type="checkbox"
+													       id="flexSwitchCheckChecked" checked>
+													<label class="form-check-label" for="flexSwitchCheckChecked">Checked
+														switch</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="mb-3 mb-md-0">
+												<div class="form-check form-switch">
+													<input class="form-check-input" type="checkbox"
+													       id="flexSwitchCheckDisabled" disabled>
+													<label class="form-check-label" for="flexSwitchCheckDisabled">Disabled
+														switch</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="mb-3 mb-md-0">
+												<div class="form-check form-switch">
+													<input class="form-check-input" type="checkbox"
+													       id="flexSwitchCheckCheckedDisabled" checked disabled>
+													<label class="form-check-label"
+													       for="flexSwitchCheckCheckedDisabled">Disabled checked
+														switch</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col">
+											<button type="button" class="btn btn-primary">
+												<span>
+													<i class="bi bi-save me-2"></i>Primary
+												</span>
+											</button>
+											<button type="button" class="btn btn-secondary">
+												<span>
+													Secondary<i class="bi bi-save ms-2"></i>
+												</span>
+											</button>
+											<button type="button" class="btn btn-success">
+												<span>
+													<i class="bi bi-save me-2"></i>Success
+												</span>
+											</button>
+											<button type="button" disabled class="btn btn-danger">
+												<span>
+													<i class="bi bi-save me-2"></i>Danger
+												</span>
+											</button>
+											<button type="button" class="btn btn-warning">
+												<span>
+													<i class="bi bi-save me-2"></i>Warning
+												</span>
+											</button>
+											<button type="button" class="btn btn-info">
+												<span>
+													<i class="bi bi-save me-2"></i>Info
+												</span>
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- *** End Main *** -->
+	
+	<!-- *** Footer *** -->
+	<footer id="footer" class="footer">
+		<div class="footer-inner">
+			Copyright &#169; <a href="https://vietcore.com.vn">Vietcore</a>. All rights reserved
+		</div>
+	</footer>
+	<!-- *** End footer *** -->
+</div>
+
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/js/template-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c72ac4a-0bd2-40f2-b3b3-e4a56501b52f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nrXXJZxVkEV6K0cRFLu6w0wg5Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Source-ReactJS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\template-administartor-vietcore\assets\plugins\bootstrap\icon" />
+      <recent name="F:\Source-Vietcore\template-administartor\assets\fonts\fontawesome" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Source-Vietcore\template-administartor" />
+      <recent name="F:\Source-Vietcore\template-administartor\assets\plugins\bootstrap\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c72ac4a-0bd2-40f2-b3b3-e4a56501b52f" name="Default Changelist" comment="" />
+      <created>1612149222127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612149222127</updated>
+      <workItem from="1612149223299" duration="4198000" />
+      <workItem from="1612161843827" duration="9223000" />
+      <workItem from="1612228149436" duration="601000" />
+      <workItem from="1612230244951" duration="3004000" />
+      <workItem from="1612334643551" duration="7887000" />
+      <workItem from="1612406294554" duration="14829000" />
+      <workItem from="1612429875261" duration="157000" />
+      <workItem from="1612430035251" duration="1514000" />
+      <workItem from="1612487184815" duration="872000" />
+      <workItem from="1612854777457" duration="227000" />
+      <workItem from="1613355523898" duration="5077000" />
+      <workItem from="1613367694357" duration="1499000" />
+      <workItem from="1613372854655" duration="16000" />
+      <workItem from="1613524561612" duration="3988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
