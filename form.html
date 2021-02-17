@@ -681,12 +681,11 @@
 <script>
 	$(document).ready(function () {
 		$('#formValidation').submit(function (e) {
-			let elm = $(this);
-			if (!elm[0].checkValidity()) {
+			if (!$(this)[0].checkValidity()) {
 				e.preventDefault();
 				e.stopPropagation();
 			}
-			elm.addClass('was-validated');
+			$(this).addClass('was-validated');
 			
 			return false;
 		})
