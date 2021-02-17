@@ -25,7 +25,7 @@
 		<div class="navbar py-0">
 			<ul class="nav w-100 flex-column" id="navigation">
 				<li class="nav-item">
-					<a href="index.html" class="nav-link">
+					<a href="form.html" class="nav-link">
 						<i class="bi bi-house-door me-3"></i>
 						<span>Home</span>
 					</a>
@@ -38,7 +38,7 @@
 					<div class="collapse show" id="dashboard" data-bs-parent="#navigation">
 						<ul class="nav flex-column">
 							<li class="nav-item">
-								<a class="nav-link active" href="index.html">
+								<a class="nav-link active" href="form.html">
 									Form
 								</a>
 							</li>
@@ -565,7 +565,8 @@
 					<div class="col-md-12">
 						<div class="card shadow mb-4">
 							<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
-								<h6 class="m-0 fs-6 fw-bold text-primary">Alert</h6>
+								<h6 class="m-0 fs-6 fw-bold text-primary">Validation Form (Có viết script ở cuối
+									file)</h6>
 								<div class="ml-auto">
 									<ol class="breadcrumb mb-0 justify-content-end">
 										<li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -574,87 +575,87 @@
 								</div>
 							</div>
 							<div class="card-body">
-								<div class="alert alert-primary">
-									A simple primary alert—check it out!
-								</div>
-								<div class="alert alert-secondary">
-									A simple secondary alert—check it out!
-								</div>
-								<div class="alert alert-success">
-									A simple success alert—check it out!
-								</div>
-								<div class="alert alert-danger">
-									A simple danger alert—check it out!
-								</div>
-								<div class="alert alert-warning">
-									A simple warning alert—check it out!
-								</div>
-								<div class="alert alert-info">
-									A simple info alert—check it out!
-								</div>
-								<div class="alert alert-light">
-									A simple light alert—check it out!
-								</div>
-								<div class="alert alert-dark">
-									A simple dark alert—check it out!
-								</div>
-								
-								<hr>
-								<div class="alert alert-primary">
-									A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give
-									it a click if you like.
-								</div>
-								<div class="alert alert-secondary">
-									A simple secondary alert with <a href="#" class="alert-link">an example link</a>.
-									Give it a click if you like.
-								</div>
-								<div class="alert alert-success">
-									A simple success alert with <a href="#" class="alert-link">an example link</a>. Give
-									it a click if you like.
-								</div>
-								<div class="alert alert-danger">
-									A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give
-									it a click if you like.
-								</div>
-								<div class="alert alert-warning">
-									A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give
-									it a click if you like.
-								</div>
-								<div class="alert alert-info">
-									A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it
-									a click if you like.
-								</div>
-								<div class="alert alert-light">
-									A simple light alert with <a href="#" class="alert-link">an example link</a>. Give
-									it a click if you like.
-								</div>
-								<div class="alert alert-dark">
-									A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it
-									a click if you like.
-								</div>
-								<hr>
-								<div class="alert alert-warning alert-dismissible fade show" role="alert">
-									<strong>Holy guacamole!</strong> You should check in on some of those fields below.
-									<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="card shadow mb-4">
-							<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
-								<h6 class="m-0 fs-6 fw-bold text-primary">Modal</h6>
-								<div class="ml-auto">
-									<ol class="breadcrumb mb-0 justify-content-end">
-										<li class="breadcrumb-item"><a href="#">Home</a></li>
-										<li class="breadcrumb-item active">Dashboard</li>
-									</ol>
-								</div>
-							</div>
-							<div class="card-body">
-							
+								<form id="formValidation" action="" class="needs-validation" novalidate>
+									<div class="row mb-md-4">
+										<div class="col-md-4">
+											<label for="validationCustom01" class="form-label">First
+												name</label>
+											<input type="text" class="form-control" id="validationCustom01"
+											       value="Mark" required>
+											<div class="valid-tooltip">
+												Looks good!
+											</div>
+										</div>
+										<div class="col-md-4">
+											<label for="validationCustom02" class="form-label">Last name</label>
+											<input type="text" class="form-control"
+											       id="validationCustom02" required>
+											<div class="valid-tooltip">
+												Error
+											</div>
+										</div>
+										<div class="col-md-4">
+											<label for="validationCustomUsername"
+											       class="form-label">Username</label>
+											<div class="input-group has-validation">
+												<span class="input-group-text">@</span>
+												<input type="text" class="form-control"
+												       id="validationCustomUsername" required>
+												<div class="invalid-feedback">
+													Please choose a username.
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row mb-md-4">
+										<div class="col-md-6">
+											<label for="validationCustom03" class="form-label">City</label>
+											<input type="text" class="form-control" id="validationCustom03"
+											       required>
+											<div class="invalid-feedback">
+												Please provide a valid city.
+											</div>
+										</div>
+										<div class="col-md-3">
+											<label for="validationCustom04" class="form-label">State</label>
+											<select class="form-select" id="validationCustom04" required>
+												<option selected disabled value="">Choose...</option>
+												<option>...</option>
+											</select>
+											<div class="invalid-feedback">
+												Please select a valid state.
+											</div>
+										</div>
+										<div class="col-md-3">
+											<label for="validationCustom05" class="form-label">Zip</label>
+											<input type="text" class="form-control" id="validationCustom05"
+											       required>
+											<div class="invalid-feedback">
+												Please provide a valid zip.
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-12">
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" value=""
+												       id="invalidCheck" required>
+												<label class="form-check-label" for="invalidCheck">
+													Agree to terms and conditions
+												</label>
+												<div class="invalid-feedback">
+													You must agree before submitting.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-md-4">
+										<div class="col-12 text-center">
+											<button class="btn btn-primary" type="submit">Submit form</button>
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -676,5 +677,20 @@
 <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="./assets/js/template-script.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$('#formValidation').submit(function (e) {
+			let elm = $(this);
+			if (!elm[0].checkValidity()) {
+				e.preventDefault();
+				e.stopPropagation();
+			}
+			elm.addClass('was-validated');
+			
+			return false;
+		})
+	})
+</script>
 </body>
 </html>
