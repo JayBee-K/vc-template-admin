@@ -1,0 +1,196 @@
+
+/* Login */
+.page-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #fff url('../images/pattern-login.svg') center center/cover no-repeat;
+}
+
+.page-login .card-login {
+    max-width: 380px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px;
+    border: 0;
+    overflow: hidden;
+}
+
+.page-login .card-login .card-header {
+    border-radius: 0;
+    background: #fff;
+    border-bottom: 0;
+    padding-top: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-login .card-login .card-header img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-login .card-login .card-header h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 20px;
+    color: var(--blue-main);
+}
+
+@media screen and (max-width: 425px) {
+    .page-login .card-login {
+        max-width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        height: 100%;
+    }
+
+    .page-login .card-login .card-body {
+        flex: 0 1 auto;
+    }
+}
+
+/* End login */
+
+/* Form Effect */
+.form-effect {
+    position: relative;
+    font-size: 14px;
+}
+
+.form-effect .group-effect {
+    position: relative;
+    height: 44px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-effect .group-effect .input-effect {
+    height: 100%;
+    width: 100%;
+    background: #f1f1f1;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #1f2d3d;
+    font-size: 1.1em;
+    padding-left: 15px;
+    margin-top: 0;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.form-effect .group-effect .input-effect[type="password"] {
+    padding-right: 30px;
+}
+
+.form-effect .viewPass-effect {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    right: 7px;
+    color: #a9a9a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.form-effect .viewPass-effect i {
+    line-height: 1;
+}
+
+.form-effect .group-effect .label-effect {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    height: 100%;
+    pointer-events: none;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    line-height: 44px;
+    color: var(--blue-hover);
+    opacity: .5;
+    transition: 0.2s all ease-out;
+    -webkit-transition: 0.2s all ease-out;
+}
+
+.form-effect .group-effect .label-effect i {
+    line-height: 1;
+    vertical-align: 2px;
+    font-size: 1.1em;
+}
+
+.form-effect .group-effect .input-effect:focus,
+.form-effect .group-effect .input-effect.valid {
+    background: #fff;
+    border-color: #e9e9e9;
+}
+
+.form-effect .group-effect .input-effect:focus + .label-effect,
+.form-effect .group-effect .input-effect.valid + .label-effect {
+    transform: translateY(-35px);
+    font-size: 1em;
+    color: var(--blue-main);
+    background: #fff;
+    display: inline-block;
+    opacity: 1;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    left: 10px;
+}
+
+.form-effect .form-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-effect .form-button button {
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    border-radius: 6px;
+    background: var(--orange-main);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: .3s all ease-out;
+    -webkit-transition: .3s all ease-out;
+}
+
+.form-effect .form-button button:hover {
+    background: var(--orange-hover);
+}
+
+.form-effect .form-text {
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.form-effect .form-text a {
+    font-size: 1.1em;
+    transition: .3s all ease-out;
+    -webkit-transition: .3s all ease-out;
+}
+
+.form-effect .form-text a:hover {
+    color: #999;
+}

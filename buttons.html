@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="">
+	
+	<link rel="shortcut icon" href="">
+	<title>Template Administrator</title>
+	
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/icon/bootstrap-icons.css">
+	
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div class="home-page open-sidebar">
+	<!-- *** Navigation Sidebar *** -->
+	<div id="sidebar" class="sidebar">
+		<div class="sidebar-overlay"></div>
+		<div class="sidebar-logo">
+			<a class="navbar-brand me-0 d-inline-block" href="javascript:;"
+			   style="background-image: url('./assets/images/logo-white.png')"></a>
+		</div>
+		<div class="navbar py-0">
+			<ul class="nav w-100 flex-column" id="navigation">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link">
+						<i class="bi bi-house-door me-3"></i>
+						<span>Home</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" data-bs-toggle="collapse" href="#dashboard">
+						<i class="bi bi-columns me-3"></i>
+						<span>Bootstrap 5</span>
+					</a>
+					<div class="collapse show" id="dashboard" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">
+									Form
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="buttons.html">
+									Buttons
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="alert.html">
+									Alert
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="modal.html">
+									Modal
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="toasts.html">
+									Toasts
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="progress.html">
+									Progress
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#tindang">
+						<i class="bi bi-list-ul me-3"></i>
+						<span>Customize</span>
+					</a>
+					<div class="collapse" id="tindang" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link" href="customize-button.html">
+									Button
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="customize-modal.html">
+									Modal
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Tất cả tin đăng
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-bs-toggle="collapse" href="#tintuc">
+						<i class="bi bi-newspaper me-3"></i>
+						<span>Bài viết</span>
+					</a>
+					<div class="collapse" id="tintuc" data-bs-parent="#navigation">
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Danh mục bài viết
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Tất cả bài viết
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Thêm bài viết
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- *** End navigation sidebar *** -->
+	
+	<!-- *** Header *** -->
+	<header id="header" class="header">
+		<div class="navbar pe-3 navbar-expand">
+			<a href="javascript:void(0)" class="toggleSidebar hamburger-icon">
+				<i class="bi bi-justify-left"></i>
+			</a>
+			<ul class="navbar-nav ms-auto mb-0">
+				<li class="nav-item dropdown">
+					<a class="dropdown-toggle text-decoration-none d-flex align-items-center text-black-50" href="#"
+					   id="toggle-user"
+					   data-bs-toggle="dropdown">
+						<img class="rounded-circle" src="./assets/images/avatar.jpg">
+						<span class="ms-2">Administrator</span>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="toggle-user">
+						<li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+						<li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+						<li><a class="dropdown-item" href="login.html">Đăng nhập / đăng ký</a></li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
+						<li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- *** End header *** -->
+	
+	<!-- *** Main *** -->
+	<div id="main" class="main">
+		<div class="main-inner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card shadow mb-4">
+							<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
+								<h6 class="m-0 fs-6 fw-bold text-primary">Buttons</h6>
+								<div class="ml-auto">
+									<ol class="breadcrumb mb-0 justify-content-end">
+										<li class="breadcrumb-item"><a href="#">Home</a></li>
+										<li class="breadcrumb-item active">Buttons</li>
+									</ol>
+								</div>
+							</div>
+							<div class="card-body">
+								<h6 class="mb-2"><b>Basic Button</b></h6>
+								<button type="button" class="btn btn-primary">Primary</button>
+								<button type="button" class="btn btn-secondary">Secondary</button>
+								<button type="button" class="btn btn-success">Success</button>
+								<button type="button" class="btn btn-danger">Danger</button>
+								<button type="button" class="btn btn-warning">Warning</button>
+								<button type="button" class="btn btn-info">Info</button>
+								<button type="button" class="btn btn-light">Light</button>
+								<button type="button" class="btn btn-dark">Dark</button>
+								
+								<button type="button" class="btn btn-link">Link</button>
+								
+								<hr>
+								<h6 class="mb-2"><b>Outline Button</b></h6>
+								<button type="button" class="btn btn-outline-primary">Primary</button>
+								<button type="button" class="btn btn-outline-secondary">Secondary</button>
+								<button type="button" class="btn btn-outline-success">Success</button>
+								<button type="button" class="btn btn-outline-danger">Danger</button>
+								<button type="button" class="btn btn-outline-warning">Warning</button>
+								<button type="button" class="btn btn-outline-info">Info</button>
+								<button type="button" class="btn btn-outline-light">Light</button>
+								<button type="button" class="btn btn-outline-dark">Dark</button>
+								
+								<hr>
+								<h6 class="mb-2"><b>Size Button</b></h6>
+								<button type="button" class="btn btn-primary btn-lg">Large button</button>
+								<button type="button" class="btn btn-primary">Default</button>
+								<button type="button" class="btn btn-primary btn-sm">Small button</button>
+								
+								<hr>
+								<h6 class="mb-2"><b>Status Button (Attribute hoặc class)</b></h6>
+								<button type="button" class="btn btn-primary disabled">Class disabled</button>
+								<button type="button" class="btn btn-primary" disabled>Attribute Disabled</button>
+								
+								
+								<hr>
+								<h6 class="mb-2"><b>Group Button</b></h6>
+								<div class="btn-group">
+									<button class="btn btn-primary" type="button">Left</button>
+									<button class="btn btn-primary" type="button">Middle</button>
+									<button class="btn btn-primary" type="button">Right</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- *** End Main *** -->
+	
+	<!-- *** Footer *** -->
+	<footer id="footer" class="footer">
+		<div class="footer-inner">
+			Copyright &#169; <a href="https://vietcore.com.vn">Vietcore</a>. All rights reserved
+		</div>
+	</footer>
+	<!-- *** End footer *** -->
+</div>
+
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/js/template-script.js"></script>
+</body>
+</html>

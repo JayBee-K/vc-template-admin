@@ -1,0 +1,113 @@
+/* Button */
+.btn-customize {
+    font-size: .95em;
+    color: #fff;
+    padding: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: .3s all ease-out;
+    position: relative;
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-customize span {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 25px;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.btn-customize i {
+    vertical-align: 2px;
+}
+
+.btn-customize::before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    content: "";
+    transition: .3s all ease-out;
+}
+
+.btn-customize:hover:before {
+    width: 100%;
+}
+
+.btn-customize:disabled {
+    cursor: not-allowed;
+    pointer-events: auto;
+}
+
+.btn-customize.btn-customize-primary::before {
+    background: #3689ff;
+}
+
+.btn-customize.btn-customize-secondary::before {
+    background: #788088;
+}
+
+.btn-customize.btn-customize-success::before {
+    background: #1d9d61;
+}
+
+.btn-customize.btn-customize-danger::before {
+    background: #ec4253;
+}
+
+.btn-customize.btn-customize-warning::before {
+    background: #ffd147;
+}
+
+.btn-customize.btn-customize-info::before {
+    background: #4fe2ff;
+}
+
+.btn-customize:hover::after {
+    width: 100%;
+}
+
+/* End Button */
+
+/* -------------------------- */
+
+/* Modal */
+/* ZoomIn*/
+.modal-zoomIn.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, 0) scale(.5);
+    transform: translate(0, 0) scale(.5);
+}
+
+.modal-zoomIn.modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+}
+
+/* End ZoomIn */
+
+/* -------------------------- */
+
+/* ZoomIn*/
+.modal-zoomOut.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, 0) scale(1.5);
+    transform: translate(0, 0) scale(1.5);
+}
+
+.modal-zoomOut.modal.show .modal-dialog {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
+}
+
+/* End ZoomIn */
+
+/* End modal */
