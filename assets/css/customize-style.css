@@ -49,27 +49,27 @@
     pointer-events: auto;
 }
 
-.btn-customize.btn-customize-primary::before {
+.btn-customize.btn-primary::before {
     background: #3689ff;
 }
 
-.btn-customize.btn-customize-secondary::before {
+.btn-customize.btn-secondary::before {
     background: #788088;
 }
 
-.btn-customize.btn-customize-success::before {
+.btn-customize.btn-success::before {
     background: #1d9d61;
 }
 
-.btn-customize.btn-customize-danger::before {
+.btn-customize.btn-danger::before {
     background: #ec4253;
 }
 
-.btn-customize.btn-customize-warning::before {
+.btn-customize.btn-warning::before {
     background: #ffd147;
 }
 
-.btn-customize.btn-customize-info::before {
+.btn-customize.btn-info::before {
     background: #4fe2ff;
 }
 

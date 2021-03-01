@@ -161,105 +161,99 @@
 	<!-- *** Main *** -->
 	<div id="main" class="main">
 		<div class="main-inner">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="card shadow mb-4">
-							<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
-								<h6 class="m-0 fs-6 fw-bold text-primary">Toasts</h6>
-								<div class="ml-auto">
-									<ol class="breadcrumb mb-0 justify-content-end">
-										<li class="breadcrumb-item"><a href="#">Home</a></li>
-										<li class="breadcrumb-item active">Toasts</li>
-									</ol>
-								</div>
+			<div class="card shadow mb-4">
+				<div class="card-header bg-white d-flex align-items-center justify-content-between py-3">
+					<h6 class="m-0 fs-6 fw-bold text-primary">Toasts</h6>
+					<div class="ml-auto">
+						<ol class="breadcrumb mb-0 justify-content-end">
+							<li class="breadcrumb-item"><a href="#">Home</a></li>
+							<li class="breadcrumb-item active">Toasts</li>
+						</ol>
+					</div>
+				</div>
+				<div class="card-body">
+					<h6 class="mb-2"><b>Basic Toasts (Sử dụng jQuery để show)</b></h6>
+					<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+						<div class="toast-header">
+							<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
+							     alt="...">
+							<strong class="me-auto">Bootstrap</strong>
+							<small>11 mins ago</small>
+							<button type="button" class="btn-close" data-bs-dismiss="toast"
+							        aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Hello, world! This is a toast message.
+						</div>
+					</div>
+					
+					<hr>
+					<h6 class="mb-2"><b>Time Toasts</b></h6>
+					<div class="toast-container">
+						<div class="toast" role="alert" aria-live="assertive" data-bs-delay="1000"
+						     aria-atomic="true">
+							<div class="toast-header">
+								<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
+								     alt="...">
+								<strong class="me-auto">Bootstrap</strong>
+								<small>11 mins ago</small>
+								<button type="button" class="btn-close" data-bs-dismiss="toast"
+								        aria-label="Close"></button>
 							</div>
-							<div class="card-body">
-								<h6 class="mb-2"><b>Basic Toasts (Sử dụng jQuery để show)</b></h6>
-								<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-									<div class="toast-header">
-										<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
-										     alt="...">
-										<strong class="me-auto">Bootstrap</strong>
-										<small>11 mins ago</small>
-										<button type="button" class="btn-close" data-bs-dismiss="toast"
-										        aria-label="Close"></button>
-									</div>
-									<div class="toast-body">
-										Hello, world! This is a toast message.
-									</div>
-								</div>
-								
-								<hr>
-								<h6 class="mb-2"><b>Time Toasts</b></h6>
-								<div class="toast-container">
-									<div class="toast" role="alert" aria-live="assertive" data-bs-delay="1000"
-									     aria-atomic="true">
-										<div class="toast-header">
-											<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
-											     alt="...">
-											<strong class="me-auto">Bootstrap</strong>
-											<small>11 mins ago</small>
-											<button type="button" class="btn-close" data-bs-dismiss="toast"
-											        aria-label="Close"></button>
-										</div>
-										<div class="toast-body">
-											Hello, world! This is a toast message.
-										</div>
-									</div>
-									<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-										<div class="toast-header">
-											<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
-											     alt="...">
-											<strong class="me-auto">Bootstrap</strong>
-											<small>11 mins ago</small>
-											<button type="button" class="btn-close" data-bs-dismiss="toast"
-											        aria-label="Close"></button>
-										</div>
-										<div class="toast-body">
-											Hello, world! This is a toast message.
-										</div>
-									</div>
-									<div class="toast" role="alert" aria-live="assertive" data-bs-delay="100000"
-									     aria-atomic="true">
-										<div class="toast-header">
-											<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
-											     alt="...">
-											<strong class="me-auto">Bootstrap</strong>
-											<small>11 mins ago</small>
-											<button type="button" class="btn-close" data-bs-dismiss="toast"
-											        aria-label="Close"></button>
-										</div>
-										<div class="toast-body">
-											Hello, world! This is a toast message.
-										</div>
-									</div>
-								</div>
-								
-								<hr>
-								<h6 class="mb-2"><b>Position Toasts</b></h6>
-								<div class="toast-container position-fixed bottom-0 end-0">
-									<div class="toast" role="alert" data-bs-delay="10000000" aria-live="assertive"
-									     aria-atomic="true">
-										<div class="toast-header">
-											<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
-											     alt="...">
-											<strong class="me-auto">Xài <code>position: fixed</code></strong>
-											<small>11 mins ago</small>
-											<button type="button" class="btn-close" data-bs-dismiss="toast"
-											        aria-label="Close"></button>
-										</div>
-										<div class="toast-body">
-											<ul>
-												<li>Class <code>top-0</code>: CSS thuộc tính <code>top:0;</code></li>
-												<li>Class <code>bottom-0</code>: CSS thuộc tính <code>bottom:0;</code>
-												</li>
-												<li>Class <code>start-0</code>: CSS thuộc tính <code>left:0;</code></li>
-												<li>Class <code>end-0</code>: CSS thuộc tính <code>right:0;</code></li>
-											</ul>
-										</div>
-									</div>
-								</div>
+							<div class="toast-body">
+								Hello, world! This is a toast message.
+							</div>
+						</div>
+						<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+							<div class="toast-header">
+								<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
+								     alt="...">
+								<strong class="me-auto">Bootstrap</strong>
+								<small>11 mins ago</small>
+								<button type="button" class="btn-close" data-bs-dismiss="toast"
+								        aria-label="Close"></button>
+							</div>
+							<div class="toast-body">
+								Hello, world! This is a toast message.
+							</div>
+						</div>
+						<div class="toast" role="alert" aria-live="assertive" data-bs-delay="100000"
+						     aria-atomic="true">
+							<div class="toast-header">
+								<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
+								     alt="...">
+								<strong class="me-auto">Bootstrap</strong>
+								<small>11 mins ago</small>
+								<button type="button" class="btn-close" data-bs-dismiss="toast"
+								        aria-label="Close"></button>
+							</div>
+							<div class="toast-body">
+								Hello, world! This is a toast message.
+							</div>
+						</div>
+					</div>
+					
+					<hr>
+					<h6 class="mb-2"><b>Position Toasts</b></h6>
+					<div class="toast-container position-fixed bottom-0 end-0">
+						<div class="toast" role="alert" data-bs-delay="10000000" aria-live="assertive"
+						     aria-atomic="true">
+							<div class="toast-header">
+								<img src="https://picsum.photos/id/980/20/20" class="rounded me-2"
+								     alt="...">
+								<strong class="me-auto">Xài <code>position: fixed</code></strong>
+								<small>11 mins ago</small>
+								<button type="button" class="btn-close" data-bs-dismiss="toast"
+								        aria-label="Close"></button>
+							</div>
+							<div class="toast-body">
+								<ul>
+									<li>Class <code>top-0</code>: CSS thuộc tính <code>top:0;</code></li>
+									<li>Class <code>bottom-0</code>: CSS thuộc tính <code>bottom:0;</code>
+									</li>
+									<li>Class <code>start-0</code>: CSS thuộc tính <code>left:0;</code></li>
+									<li>Class <code>end-0</code>: CSS thuộc tính <code>right:0;</code></li>
+								</ul>
 							</div>
 						</div>
 					</div>
