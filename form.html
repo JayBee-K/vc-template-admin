@@ -667,6 +667,7 @@
 <script>
 	$(document).ready(function () {
 		$('#formValidation').submit(function (e) {
+			console.log($(this)[0].checkValidity());
 			if (!$(this)[0].checkValidity()) {
 				e.preventDefault();
 				e.stopPropagation();
